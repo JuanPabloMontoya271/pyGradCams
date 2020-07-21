@@ -3,7 +3,7 @@ import scipy.ndimage as nd
 import torch
 
 
-class GradCAM3D:
+class GradCAM:
     
     def __init__(self, image_volume, c, features_fn, classifier_fn):
         """
